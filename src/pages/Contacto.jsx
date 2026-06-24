@@ -75,7 +75,7 @@ function Contacto() {
           <div className="contacto-row">
             <div className="contacto-col">
               <img
-                src="https://salonmariaromero.es/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-12-at-21.31.41-1-768x1024.jpeg"
+                src="assets/images/wp-assets/WhatsApp-Image-2024-10-12-at-21.31.41-1.jpeg"
                 alt="Salón María Romero"
                 className="contacto-image"
                 loading="lazy"

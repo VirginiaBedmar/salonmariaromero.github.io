@@ -5,22 +5,22 @@ import Footer from '../../components/Footer';
 
 const testimonials = [
   {
-    img: 'https://salonmariaromero.es/wp-content/uploads/2024/09/eye-211610_1280.jpg',
+    img: 'assets/images/wp-assets/eye-211610_1280.jpg',
     name: 'Patricia T.',
     text: 'Me encanta el trato y la profesionalidad de Maria Romero. Su centro de estética es muy acogedor y no le falta ningun detalle para mimar a sus clientas. Lo recomiendo 100%.',
   },
   {
-    img: 'https://salonmariaromero.es/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-09-at-12.02.46.jpeg',
+    img: 'assets/images/wp-assets/WhatsApp-Image-2024-10-09-at-12.02.46.jpeg',
     name: 'Sofia D.',
     text: 'Maria es maravillosa. Súper atenta y profesional. Lleves la idea que lleves siempre la lleva a cabo a la perfección. Te aconseja en cuanto a colores y diseños, etc. Es una chica super amable, amigable y simpática. Llevo con ella desde hace más de un año y no la cambio por nada.',
   },
   {
-    img: 'https://salonmariaromero.es/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-10-at-19.13.24.jpeg',
+    img: 'assets/images/wp-assets/WhatsApp-Image-2024-10-10-at-19.13.24.jpeg',
     name: 'Carmen G.',
     text: 'Pasión y cuidado así es como describiría el arte y la experiencia con María cada vez que me hace la manicura. Mis uñas se mantienen sanas y fuertes y siempre supera mis expectativas con los diseños que le pido. ¡100% recomendada!',
   },
   {
-    img: 'https://salonmariaromero.es/wp-content/uploads/2024/09/woman-in-a-nail-salon-receiving-a-manicure.jpg',
+    img: 'assets/images/wp-assets/woman-in-a-nail-salon-receiving-a-manicure.jpg',
     name: 'Tamara L.',
     text: 'Soy clienta de Maria desde hace más de un año y medio y sólo puedo hablar maravillas de ella. Es súper atenta, profesional, se nota que le encanta su trabajo y siempre siempre hace lo posible para dar lo mejor de ella en cada uno de sus servicios. Sin duda alguna la elegiría una y otra vez. Gracias María por darnos a tus clientas lo mejor de ti.',
   },
@@ -59,16 +59,16 @@ export default () => {
         <section className="home-gallery-strip">
           <div className="container">
             <div className="home-gallery-grid">
-              <img src="https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.04-1-768x1024.jpeg" alt="" loading="lazy" />
-              <img src="https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.04-2-768x1024.jpeg" alt="" loading="lazy" />
-              <img src="https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.04-3-768x1024.jpeg" alt="" loading="lazy" />
-              <img src="https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.04-5-768x1024.jpeg" alt="" loading="lazy" />
-              <img src="https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.05-2-768x1024.jpeg" alt="" loading="lazy" />
-              <img src="https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.07-2-768x1024.jpeg" alt="" loading="lazy" />
-              <img src="https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.08-768x1024.jpeg" alt="" loading="lazy" />
-              <img src="https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.10-1-768x1024.jpeg" alt="" loading="lazy" />
-              <img src="https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.12-768x1024.jpeg" alt="" loading="lazy" />
-              <img src="https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.12-1-768x1024.jpeg" alt="" loading="lazy" />
+              <img src="assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.04-1.jpeg" alt="" loading="lazy" />
+              <img src="assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.04-2.jpeg" alt="" loading="lazy" />
+              <img src="assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.04-3.jpeg" alt="" loading="lazy" />
+              <img src="assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.04-5.jpeg" alt="" loading="lazy" />
+              <img src="assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.05-2.jpeg" alt="" loading="lazy" />
+              <img src="assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.07-2.jpeg" alt="" loading="lazy" />
+              <img src="assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.08.jpeg" alt="" loading="lazy" />
+              <img src="assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.10-1.jpeg" alt="" loading="lazy" />
+              <img src="assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.12.jpeg" alt="" loading="lazy" />
+              <img src="assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.12-1.jpeg" alt="" loading="lazy" />
             </div>
           </div>
         </section>
@@ -81,7 +81,7 @@ export default () => {
           <div className="container">
             <div className="home-presoterapia-grid">
               <div className="home-presoterapia-image">
-                <img src="https://salonmariaromero.es/wp-content/uploads/2025/05/presoterapiaial-819x1024.webp" alt="Presoterapia" loading="lazy" />
+                <img src="assets/images/wp-assets/presoterapiaial.webp" alt="Presoterapia" loading="lazy" />
               </div>
               <div className="home-presoterapia-content">
                 <h2>Presoterapia: Belleza y bienestar en una sola sesión</h2>
@@ -137,7 +137,7 @@ export default () => {
             <div className="home-services-showcase-grid">
               <div className="home-service-card">
                 <div className="home-service-card-image">
-                  <img src="https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.04-3-768x1024.jpeg" alt="Micropigmentación" loading="lazy" />
+                  <img src="assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.04-3.jpeg" alt="Micropigmentación" loading="lazy" />
                 </div>
                 <div className="home-service-card-content">
                   <span className="home-service-card-tag">Atención personalizada</span>
@@ -154,7 +154,7 @@ export default () => {
               </div>
               <div className="home-service-card">
                 <div className="home-service-card-image">
-                  <img src="https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.03.40-768x1024.jpeg" alt="Pedicura" loading="lazy" />
+                  <img src="assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.03.40.jpeg" alt="Pedicura" loading="lazy" />
                 </div>
                 <div className="home-service-card-content">
                   <span className="home-service-card-tag">Atención personalizada</span>
@@ -170,7 +170,7 @@ export default () => {
               </div>
               <div className="home-service-card">
                 <div className="home-service-card-image">
-                  <img src="https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.12-768x1024.jpeg" alt="Lifting de pestañas" loading="lazy" />
+                  <img src="assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.12.jpeg" alt="Lifting de pestañas" loading="lazy" />
                 </div>
                 <div className="home-service-card-content">
                   <span className="home-service-card-tag">Atención personalizada</span>
@@ -234,7 +234,7 @@ export default () => {
         </section>
 
         <section className="home-decorative-image">
-          <img src="https://salonmariaromero.es/wp-content/uploads/2024/09/manicured-woman-hands-with-pastel-nail-polish-8JZ69ZG.jpg" alt="" loading="lazy" />
+          <img src="assets/images/wp-assets/manicured-woman-hands-with-pastel-nail-polish-8JZ69ZG.jpg" alt="" loading="lazy" />
         </section>
 
         <section className="home-bottom-jasmine">

@@ -2,29 +2,29 @@ import React from 'react'
 import './SobreMi.scss'
 
 const galleryItems = [
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.12-1-225x300.jpeg', category: 'Manicura' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.12-300x300.jpeg', category: 'Manicura' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.11-1-225x300.jpeg', category: 'Manicura' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.11-225x300.jpeg', category: 'Manicura' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.10-1-169x300.jpeg', category: 'Manicura' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.07-225x300.jpeg', category: 'Manicura' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.07-1-225x300.jpeg', category: 'Manicura' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.07-2-225x300.jpeg', category: 'Manicura' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.08-225x300.jpeg', category: 'Manicura' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.09-225x300.jpeg', category: 'Manicura' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.09-1-225x300.jpeg', category: 'Manicura' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.10-225x300.jpeg', category: 'Manicura' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.05-2-225x300.jpeg', category: 'Manicura' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.05-225x300.jpeg', category: 'Manicura' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.04-5-225x300.jpeg', category: 'Manicura' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.04-4-225x300.jpeg', category: 'Manicura' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.04-3-225x300.jpeg', category: 'Manicura' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.04-2-225x300.jpeg', category: 'Manicura' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.04-1-225x300.jpeg', category: 'Manicura' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.04-284x300.jpeg', category: 'Manicura' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.03.41-225x300.jpeg', category: 'Micropigmentación' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.03.40-1-225x300.jpeg', category: 'Micropigmentación' },
-  { src: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.03.40-225x300.jpeg', category: 'Micropigmentación' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.12-1.jpeg', category: 'Manicura' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.12.jpeg', category: 'Manicura' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.11-1.jpeg', category: 'Manicura' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.11.jpeg', category: 'Manicura' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.10-1.jpeg', category: 'Manicura' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.07.jpeg', category: 'Manicura' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.07-1.jpeg', category: 'Manicura' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.07-2.jpeg', category: 'Manicura' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.08.jpeg', category: 'Manicura' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.09.jpeg', category: 'Manicura' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.09-1.jpeg', category: 'Manicura' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.10.jpeg', category: 'Manicura' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.05-2.jpeg', category: 'Manicura' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.05.jpeg', category: 'Manicura' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.04-5.jpeg', category: 'Manicura' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.04-4.jpeg', category: 'Manicura' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.04-3.jpeg', category: 'Manicura' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.04-2.jpeg', category: 'Manicura' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.04-1.jpeg', category: 'Manicura' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.04.jpeg', category: 'Manicura' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.03.41.jpeg', category: 'Micropigmentación' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.03.40-1.jpeg', category: 'Micropigmentación' },
+  { src: 'assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.03.40.jpeg', category: 'Micropigmentación' },
 ]
 
 function SobreMi() {
@@ -90,13 +90,13 @@ function SobreMi() {
             </div>
             <div className="sobremi-about-images">
               <img
-                src="https://salonmariaromero.es/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-12-at-21.31.41-2-768x1024.jpeg"
+                src="assets/images/wp-assets/WhatsApp-Image-2024-10-12-at-21.31.41-2.jpeg"
                 alt="María Romero"
                 className="sobremi-about-image"
                 loading="lazy"
               />
               <img
-                src="https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.04-5-768x1024.jpeg"
+                src="assets/images/wp-assets/WhatsApp-Image-2024-09-26-at-15.02.04-5.jpeg"
                 alt="María Romero"
                 className="sobremi-about-image sobremi-about-image--secondary"
                 loading="lazy"
