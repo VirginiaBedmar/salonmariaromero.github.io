@@ -7,6 +7,7 @@ import Home from "./pages/home/Home";
 import Servicios from "./pages/Servicios";
 import SobreMi from "./pages/SobreMi";
 import Contacto from "./pages/Contacto";
+import NotFound from "./pages/NotFound";
 
 export default () => {
     return (
@@ -16,6 +17,7 @@ export default () => {
                 <Route path="/servicios" element={<Servicios/>} />
                 <Route path="/sobre-mi" element={<SobreMi/>} />
                 <Route path="/contacto" element={<Contacto/>} />
+                <Route path="*" element={<NotFound/>} />
             </Route>
         </Routes>
     )
