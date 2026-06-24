@@ -1,11 +1,11 @@
 {
-  "name": "abrahanzarza",
-  "description": "Portfolio website of Abrahan Zarza",
+  "name": "salonmariaromero",
+  "description": "Portfolio website of Maria Romero",
   "scripts": {
     "dev": "webpack-dev-server .",
     "build": "webpack ."
   },
-  "author": "Abrahan Zarza",
+  "author": "Maria Romero",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.20.7",
