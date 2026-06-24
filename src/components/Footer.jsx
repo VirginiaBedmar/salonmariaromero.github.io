@@ -64,9 +64,8 @@ function Footer() {
         </div>
         <div className="site-footer-bottom">
           <div className="site-footer-bottom-links">
-            <Link to="/privacidad">Política de privacidad</Link>
+            <Link to="/politica-privacidad">Política de privacidad</Link>
             <Link to="/aviso-legal">Aviso Legal</Link>
-            <Link to="/accesibilidad">Declaracion Accesibilidad</Link>
           </div>
           <p className="site-footer-copyright">
             &copy; 2024 Salón de Belleza MR &bull; Todos los derechos reservados

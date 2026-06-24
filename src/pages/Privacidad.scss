@@ -1,0 +1,98 @@
+$color-accent: #6DCDB8;
+$color-light: #fff;
+$color-text: #333;
+$color-text-muted: #777;
+$breakpoint-md: 768px;
+
+.privacidad-hero {
+  position: relative;
+  padding: 6rem 0 4rem;
+  text-align: center;
+  background: linear-gradient(135deg, $color-accent 0%, darken($color-accent, 15%) 100%);
+  color: $color-light;
+
+  &-overlay {
+    position: absolute;
+    inset: 0;
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.1'/%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+
+  &-title {
+    font-family: "Cormorant", serif;
+    font-size: 3rem;
+    margin: 0;
+    position: relative;
+
+    @media (max-width: $breakpoint-md) {
+      font-size: 2rem;
+    }
+  }
+}
+
+.privacidad-content {
+  padding: 4rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: "Nunito", sans-serif;
+  color: $color-text;
+  line-height: 1.8;
+
+  h2 {
+    font-family: "Cormorant", serif;
+    font-size: 2rem;
+    color: $color-text;
+    margin: 3rem 0 1rem;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    @media (max-width: $breakpoint-md) {
+      font-size: 1.5rem;
+    }
+  }
+
+  h3 {
+    font-family: "Cormorant", serif;
+    font-size: 1.4rem;
+    color: $color-text;
+    margin: 2rem 0 0.75rem;
+
+    @media (max-width: $breakpoint-md) {
+      font-size: 1.2rem;
+    }
+  }
+
+  p {
+    margin: 0 0 1rem;
+    font-size: 1rem;
+
+    @media (max-width: $breakpoint-md) {
+      font-size: 0.95rem;
+    }
+  }
+
+  ul {
+    margin: 0 0 1.5rem;
+    padding-left: 1.5rem;
+
+    li {
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+
+      @media (max-width: $breakpoint-md) {
+        font-size: 0.95rem;
+      }
+    }
+  }
+
+  a {
+    color: $color-accent;
+    text-decoration: underline;
+
+    &:hover {
+      color: darken($color-accent, 10%);
+    }
+  }
+}
