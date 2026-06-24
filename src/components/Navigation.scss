@@ -1,0 +1,72 @@
+$color-background-dark: #333333;
+$color-background-highlighted: #6DCDB8;
+$color-background-highlighted-with-opacity: #6DCDB876;
+$color-text-white: #fff;
+
+.site-navigation {
+  background-color: $color-background-dark;
+  padding: 16px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-logo {
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    display: block;
+  }
+
+  &-logo-figure {
+    margin: 0;
+    padding: 0;
+    width: 80px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 2rem;
+
+    li a {
+      color: $color-text-white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+
+      &:hover {
+        color: $color-background-highlighted;
+      }
+    }
+  }
+
+  &-social {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+
+    li a {
+      color: $color-text-white;
+      font-size: 1.2rem;
+      transition: color 0.2s;
+
+      &:hover {
+        color: $color-background-highlighted;
+      }
+    }
+  }
+}
