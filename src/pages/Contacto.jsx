@@ -12,7 +12,7 @@ const contactMethods = [
     icon: 'whatsapp',
     label: '+(34) 603 439 373',
     desc: 'Déjanos un mensaje de WhatsApp para lo que necesites y te atendemos.',
-    href: 'https://api.whatsapp.com/send',
+    href: 'https://api.whatsapp.com/send?phone=+34603439373',
   },
   {
     icon: 'email',
@@ -75,7 +75,7 @@ function Contacto() {
           <div className="contacto-row">
             <div className="contacto-col">
               <img
-                src="https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.12-1-225x300.jpeg"
+                src="https://salonmariaromero.es/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-12-at-21.31.41-1-768x1024.jpeg"
                 alt="Salón María Romero"
                 className="contacto-image"
                 loading="lazy"

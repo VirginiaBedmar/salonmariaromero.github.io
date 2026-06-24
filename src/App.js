@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import './App.scss';
 import './App.responsive.scss';
 import Layout from "./components/Layout";
-import Home from "./pages/Home";
+import Home from "./pages/home/Home";
 import Servicios from "./pages/Servicios";
 import SobreMi from "./pages/SobreMi";
 import Contacto from "./pages/Contacto";

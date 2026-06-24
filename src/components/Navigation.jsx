@@ -11,7 +11,7 @@ function Navigation() {
         <div className="site-navigation-container">
           <Link to="/" className="site-navigation-logo">
             <figure className="site-navigation-logo-figure">
-              <img src="assets/images/logo-green.png" alt="Salón María Romero" />
+              <img src="https://salonmariaromero.es/wp-content/uploads/2024/09/Diseno-sin-titulo-2024-09-26T135536.081.png" alt="Salón María Romero" />
             </figure>
           </Link>
           <nav>

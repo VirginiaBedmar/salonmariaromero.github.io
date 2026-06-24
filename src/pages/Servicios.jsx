@@ -15,7 +15,7 @@ const servicesData = {
       { name: 'Decoración elaborada', price: 'desde 0,50€', desc: 'Dale un toque personal a tus manos con nuestra decoración creativa.' },
       { name: 'Decoración con aerógrafo', price: 'desde 1,00€', desc: 'Luce diseños impresionantes y suaves con nuestra técnica de aerógrafo.' },
     ],
-    img: 'https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.12-1-225x300.jpeg',
+    img: 'https://salonmariaromero.es/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-12-at-21.31.40-768x1024.jpeg',
   },
   micropigmentacion: {
     title: 'Micropigmentación',
@@ -94,7 +94,7 @@ function Servicios() {
           <div className="servicios-row">
             <div className="servicios-col servicios-col-image">
               <img
-                src="https://salonmariaromero.es/wp-content/uploads/2024/09/pexels-photo-6966204-225x300.jpeg"
+                src="https://salonmariaromero.es/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-12-at-21.31.39-768x1024.jpeg"
                 alt="Micropigmentación y Pedicura"
                 className="servicios-image"
                 loading="lazy"
@@ -157,7 +157,7 @@ function Servicios() {
             </div>
             <div className="servicios-col servicios-col-image">
               <img
-                src="https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.12-1-225x300.jpeg"
+                src="https://salonmariaromero.es/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-12-at-21.31.40-768x1024.jpeg"
                 alt="Cejas y Pestañas"
                 className="servicios-image"
                 loading="lazy"
@@ -172,7 +172,7 @@ function Servicios() {
           <div className="servicios-presoterapia-grid">
             <div className="servicios-presoterapia-image">
               <img
-                src="https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.12-1-225x300.jpeg"
+                src="https://salonmariaromero.es/wp-content/uploads/2025/05/presoterapiaial-819x1024.webp"
                 alt="Presoterapia"
                 loading="lazy"
               />
@@ -206,7 +206,7 @@ function Servicios() {
             como nunca antes. ¡No dejes pasar la oportunidad de disfrutar de un momento especial para ti!
           </p>
           <a
-            href="https://api.whatsapp.com/send"
+            href="https://api.whatsapp.com/send?phone=+34603439373"
             target="_blank"
             rel="noopener noreferrer"
             className="servicios-cta-button"

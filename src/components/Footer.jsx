@@ -14,8 +14,9 @@ function Footer() {
         <div className="site-footer-grid">
           <div className="site-footer-col">
             <Link to="/" className="site-footer-logo">
-              <img src="assets/images/logo-green.png" alt="Salón María Romero" />
+              <img src="https://salonmariaromero.es/wp-content/uploads/2024/09/Diseno-sin-titulo-2024-09-26T135536.081.png" alt="Salón María Romero" />
             </Link>
+            <img className="site-footer-kitdigital" src="https://salonmariaromero.es/wp-content/uploads/2024/09/CONBANDERA_KITDIGITAL.svg" alt="Kit Digital" />
           </div>
           <div className="site-footer-col">
             <h3 className="site-footer-title">Menu</h3>
@@ -40,7 +41,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://api.whatsapp.com/send" target="_blank" rel="noopener noreferrer">
+                <a href="https://api.whatsapp.com/send?phone=+34603439373" target="_blank" rel="noopener noreferrer">
                   WhatsApp
                 </a>
               </li>

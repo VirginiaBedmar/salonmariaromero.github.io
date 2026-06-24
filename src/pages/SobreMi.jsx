@@ -90,13 +90,13 @@ function SobreMi() {
             </div>
             <div className="sobremi-about-images">
               <img
-                src="https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.12-1-225x300.jpeg"
+                src="https://salonmariaromero.es/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-12-at-21.31.41-2-768x1024.jpeg"
                 alt="María Romero"
                 className="sobremi-about-image"
                 loading="lazy"
               />
               <img
-                src="https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.12-1-225x300.jpeg"
+                src="https://salonmariaromero.es/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-15.02.04-5-768x1024.jpeg"
                 alt="María Romero"
                 className="sobremi-about-image sobremi-about-image--secondary"
                 loading="lazy"
@@ -126,7 +126,7 @@ function SobreMi() {
           <div className="sobremi-contact-cards">
             <div className="sobremi-contact-card">
               <a
-                href="https://api.whatsapp.com/send"
+                href="https://api.whatsapp.com/send?phone=+34603439373"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="sobremi-contact-icon"
@@ -136,7 +136,7 @@ function SobreMi() {
                 </svg>
               </a>
               <h3 className="sobremi-contact-title">
-                <a href="https://api.whatsapp.com/send" target="_blank" rel="noopener noreferrer">
+                <a href="https://api.whatsapp.com/send?phone=+34603439373" target="_blank" rel="noopener noreferrer">
                   +(34) 603 439 373
                 </a>
               </h3>
