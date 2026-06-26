@@ -48,7 +48,7 @@ export default () => {
                 <a href="/servicios">Consulta servicios</a>
               </div>
               <figure>
-                <img src="https://salonmariaromero.es/wp-content/uploads/2024/09/jasmine-flowers-white-5png.png" alt="Jasmine Flowers White" />
+                <img src="assets/images/wp-assets/jasmine-flowers.png" alt="Jasmine Flowers White" />
               </figure>
             </div>
           </div>
@@ -74,7 +74,7 @@ export default () => {
         </section>
 
         <section className="home-jasmine-divider">
-          <img src="https://salonmariaromero.es/wp-content/uploads/2024/09/jasmine-flowers-white-5png.png" alt="" loading="lazy" />
+          <img src="assets/images/wp-assets/jasmine-flowers.png" alt="" loading="lazy" />
         </section>
 
         <section className="home-presoterapia">
@@ -238,7 +238,7 @@ export default () => {
         </section>
 
         <section className="home-bottom-jasmine">
-          <img src="https://salonmariaromero.es/wp-content/uploads/2024/09/jasmine-flowers-white-6.png" alt="" loading="lazy" />
+          <img src="assets/images/wp-assets/jasmine-flowers-white-6.png" alt="" loading="lazy" />
         </section>
 
         <section className="home-hours">
