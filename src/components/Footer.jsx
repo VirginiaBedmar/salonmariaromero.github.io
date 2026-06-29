@@ -40,7 +40,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://api.whatsapp.com/send?phone=+34603439373" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/+34603439373" target="_blank" rel="noopener noreferrer">
                   WhatsApp
                 </a>
               </li>

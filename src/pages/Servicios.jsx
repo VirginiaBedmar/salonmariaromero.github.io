@@ -206,7 +206,7 @@ function Servicios() {
             como nunca antes. ¡No dejes pasar la oportunidad de disfrutar de un momento especial para ti!
           </p>
           <a
-            href="https://api.whatsapp.com/send?phone=+34603439373"
+            href="https://wa.me/+34603439373"
             target="_blank"
             rel="noopener noreferrer"
             className="servicios-cta-button"

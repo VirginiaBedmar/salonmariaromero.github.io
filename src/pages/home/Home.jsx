@@ -220,7 +220,7 @@ export default () => {
                   <p className="home-microprecios-desc">{item.desc}</p>
                   <p className="home-microprecios-price">{item.price}</p>
                   <a
-                    href="https://api.whatsapp.com/send?phone=+34603439373"
+                    href="https://wa.me/+34603439373"
                     className="home-microprecios-cta"
                     target="_blank"
                     rel="noopener noreferrer"

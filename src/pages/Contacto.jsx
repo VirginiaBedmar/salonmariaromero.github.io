@@ -12,7 +12,7 @@ const contactMethods = [
     icon: 'whatsapp',
     label: '+(34) 603 439 373',
     desc: 'Déjanos un mensaje de WhatsApp para lo que necesites y te atendemos.',
-    href: 'https://api.whatsapp.com/send?phone=+34603439373',
+    href: 'https://wa.me/+34603439373',
   },
   {
     icon: 'email',

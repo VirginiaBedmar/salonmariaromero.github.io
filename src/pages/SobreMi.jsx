@@ -126,7 +126,7 @@ function SobreMi() {
           <div className="sobremi-contact-cards">
             <div className="sobremi-contact-card">
               <a
-                href="https://api.whatsapp.com/send?phone=+34603439373"
+                href="https://wa.me/+34603439373"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="sobremi-contact-icon"
@@ -136,7 +136,7 @@ function SobreMi() {
                 </svg>
               </a>
               <h3 className="sobremi-contact-title">
-                <a href="https://api.whatsapp.com/send?phone=+34603439373" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/+34603439373" target="_blank" rel="noopener noreferrer">
                   +(34) 603 439 373
                 </a>
               </h3>
